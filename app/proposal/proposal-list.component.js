@@ -13,6 +13,11 @@ var ProposalListComponent = (function () {
         this.proposalOne = new proposal_1.Proposal(15, 'Abc Company', 'http://portfolio.jordanhudgens.com', 'Ruby on Rails', 150, 120, 15, 'jordan@example.com');
         this.proposalTwo = new proposal_1.Proposal(99, 'XYZ Company', 'http://portfolio.jordanhudgens.com', 'Ruby on Rails', 150, 120, 15, 'jordan@example.com');
         this.proposalThree = new proposal_1.Proposal(300, 'Something Company', 'http://portfolio.jordanhudgens.com', 'Ruby on Rails', 150, 120, 15, 'jordan@example.com');
+        this.proposals = [
+            this.proposalOne,
+            this.proposalTwo,
+            this.proposalThree
+        ];
     }
     return ProposalListComponent;
 }());
